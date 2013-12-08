@@ -1,0 +1,3 @@
+<?php
+$MAINURL = $_SERVER['DOCUMENT_ROOT'];
+?>

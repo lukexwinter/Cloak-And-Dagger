@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DidotLTStdBold';
+    src: url('didotltstd-bold.eot');
+    src: url('didotltstd-bold.eot') format('embedded-opentype'),
+         url('didotltstd-bold.woff') format('woff'),
+         url('didotltstd-bold.ttf') format('truetype'),
+         url('didotltstd-bold.svg#DidotLTStdBold') format('svg');
+}
