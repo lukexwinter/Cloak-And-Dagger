@@ -6,6 +6,7 @@ function setFrameHeight() {
 	
 	if (windowWidth > 480) {
 		frameHeight = windowHeight - 120;
+		console.log('im working');
 	} else {
 		frameHeight = windowHeight - 75;
 	}
@@ -26,7 +27,7 @@ $('#menu-button').click(function(){
 	} else {
 		$('.mobile-nav').addClass('active');
 	}
-})
+});
 
 //Pass-through Hack
 $("a").click(function(){
