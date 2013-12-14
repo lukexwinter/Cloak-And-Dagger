@@ -75,11 +75,15 @@
 			mapTypeControlOptions: {
 				mapTypeIds: [ 'Styled']
 			},
-			center: new google.maps.LatLng(39.74507466327502, -84.19938793182371),
+			center: new google.maps.LatLng(39.743973,-84.182857),
 			zoom: 16,
 			mapTypeId: 'Styled'
 		}
 		var map = new google.maps.Map(map_canvas, map_options);
+		var edokoImage = 'img/map-marker.png';
+		var edokoPos = new google.maps.LatLng(39.743973,-84.182857);
+		var edokoMarker = new google.maps.Marker({position: edokoPos, map: map, icon: edokoImage, content: 'Edoko Sush & Robata' });
+		
 		var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
 		map.mapTypes.set('Styled', styledMapType);
 	}
@@ -89,27 +93,30 @@
 	
 </script>
 
+
 <script>
 	function setMapHeight() {
-		var map = $('#map_canvas');
-		var windowHeight = $(window).height();
-		var windowWidth = $(window).width();
+		var cdMap = $('#map_canvas');
 		var infoHeight = $('.booking article').height();
-		var mapHeight = 0;
+		var infoOffset = $('.booking article').offset();
+		var windowHeight = $(window).height();
+		infoOffset = infoOffset.top;
 	
+		var mapHeight = (windowHeight - (infoHeight+infoOffset) - 85) ;
 		
-		mapHeight = windowHeight - 75;
-		}
-		map.css('height', mapHeight);
+		console.log('infoOffset = '+infoOffset);
+		console.log('infoHeight = '+infoHeight);
+		console.log('windowHeight = '+windowHeight);
+		console.log('mapHeight = '+mapHeight);
+		cdMap.css('height', mapHeight);
 	}
 
 	$(document).ready(function(){
-		setFrameHeight();
-		console.log(infoHeight);
+		setMapHeight();
 	})
 
 	$(window).resize(function(){
-		setFrameHeight();
+		setMapHeight();
 	})
 </script>
 
@@ -132,15 +139,19 @@
 					</tr>
 					<tr class="spacer"><td></td></tr>
 					<tr>
-						<td><strong>CONTACT<br />INFORMATION</strong></td>
+						<td class="contact" style="padding-right: 30px;"><strong>CONTACT <br />INFORMATION</strong></td>
 						<td>
 							+937.222.7880<br />
 							BOOKING[AT]CLOAKANDDAGGERTATTOO.COM
 						</td>
 					</tr>
 				</table>	
+				<br /><br />
+				<a href="#" class="button">GET DIRECTIONS</a>
 			</article>
 			
+			
+						
 			<div id="map_canvas"></div>
 			
 		</section>

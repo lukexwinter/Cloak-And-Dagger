@@ -32,6 +32,13 @@
 			</article>
 		</section>
 		
+		<script>
+		$(window).ready(function() {
+		     $(".artists article").each(function(i) {
+		           $(this).delay(150*i).fadeIn();
+		      });
+		  });
+		</script>
 	
 <?php include "footer.php"; ?>
-	</script>
+	
