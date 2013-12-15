@@ -5,9 +5,11 @@ function setFrameHeight() {
 	var windowWidth = $(window).width();
 	var frameHeight = 0;
 	
-	if (windowWidth > 480) {
+	if (windowWidth > 767) {
 		frameHeight = windowHeight - 120;
 		console.log('im working');
+	} else if (navigator.userAgent.match(/(iPod|iPhone)/)) {
+		frameHeight = windowHeight;
 	} else {
 		frameHeight = windowHeight - 75;
 	}

@@ -59,6 +59,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+a { color: #fff; text-decoration: underline; }
+a:hover { text-decoration: none; }
 
 /*helpers*/
 .fleft { float: left; }
@@ -255,6 +257,8 @@ footer h6.address .phone { margin-left: 60px; }
 .booking article table { font-family: "futura-medium", "Trebuchet MS", Arial, sans-serif; font-size: 12px; width: 37.128713%; /*375/1010*/ float: right; }
 .booking article table tr.spacer { height: 11px; }
 .booking article table tr td { vertical-align: top; line-height: 1.7; }
+.booking article a { color: #fff; text-decoration: none; }
+.booking article a:hover { text-decoration: underline; }
 .booking article a.button { width: 100%; display: none; background: #000; border: 1px solid #c0b57c; color: #fff; font-family: "futura-medium", "Trebuchet MS", Arial, sans-serif; text-align: center; font-size: 18px; padding: 15px 0; text-decoration: none; letter-spacing: 2px; margin-bottom: 85px; }
 .booking article a.button:hover { background: #c0b57c; }
 #map_canvas{ clear: both; width: 100%; position: absolute; bottom: 0; opacity: 0; }
@@ -271,9 +275,9 @@ section.about { background: url('../img/about-bg.jpg') no-repeat #000; backgroun
 .care article h1 { font-family: "didot-bold", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 60px; font-weight: normal; line-height: 1.2; }
 .care article.intro p { font-family: "didot", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 24px; font-weight: normal; }
 .care article.faq { width: 29.296875%; float: left; margin-left: 62.109375%; margin-top: 393px; padding-bottom: 90px; font-family: "futura-medium", "Trebuchet MS", Arial, sans-serif; color: #fff;  }
-.care article.faq h2 { font-weight: normal; font-size: 14px; margin-bottom: 25px; }
+.care article.faq h2 { font-weight: normal; font-size: 16px; margin-bottom: 25px; }
 .care article.faq h2 span { color: #c0b57c; }
-.care article.faq p { font-weight: normal; font-size: 12px; margin-bottom: 25px; -webkit-font-smoothing: antialiased !important; }
+.care article.faq p { font-weight: normal; font-size: 12px; margin-bottom: 25px; -webkit-font-smoothing: antialiased !important; font-size: 14px; }
 
 /*Shrunken Nav*/
 header.small #logo { width: 51px; height: 48px; top: -50px; margin-left: -25.5px; }
@@ -308,6 +312,10 @@ header.small .shade { top: 0; }
 }
 
 @media only screen and (max-width: 768px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
 	.home h1 { font-size: 36px; line-height: 1.1; }
 	footer { bottom: -45px; font-size: 9px; line-height: 12px; text-align: center; }
 	footer h6 { float: none !important; }
@@ -322,19 +330,13 @@ header.small .shade { top: 0; }
 	/*Artists*/
 	.artists article { width: 100%; float: none; margin: 0 0 70px 0; background: #000; }
 	.artists article.even { float: none; }
-}
-
-@media only screen and (max-width: 645px) {
 	
-}
-
-
-@media only screen and (max-width: 480px) {
 	.mobile-nav { display: block; }
 	
 	/*Navigation*/
 	.gold-border.top-right, .gold-border.top-left { width: 35.453507%; }
 	footer { display: none; }
+	header.small #logo { display: block; width: 81px; height: 77px; position: absolute; top: -38.5px; left: 50%; margin-left: -40.5px; z-index: 2; }
 	
 	
 	/*Homepage*/
@@ -343,7 +345,8 @@ header.small .shade { top: 0; }
 	.home h1 .brand { font-size: 10px; margin-top: 20px; }
 	.home h1 .studio { font-size: 6px; margin-top: 6px; }
 	.home h1 .slash { height: 45px; top: -9px; right: 34px; } 
-	header nav { display: none; }
+	header nav ul { display: none; }
+	header nav .shade { display: none; }
 	
 	/*Booking*/
 	.booking article table td { display: block; }
@@ -353,6 +356,7 @@ header.small .shade { top: 0; }
 	
 	/*About*/
 	section.about { background-size: 216%; background-position-x: -200px; }
+	.about article h1 { width: 100%; font-size: 48px; }
 	
 	/*Care*/
 	.care article.intro h1 { width: 100%; font-size: 48px; }

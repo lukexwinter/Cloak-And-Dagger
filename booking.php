@@ -128,7 +128,7 @@ $(document).ready(function() {
 
 		<section class="booking clearfix">
 			<article class="clearfix">
-				<h1>To book an appointment, call, or visit the shop to speak to an artist.  All appointments require a $50 deposit that will later be applied to the price of your scheduled appointment.</h1>
+				<h1>To book an appointment, call, or visit the shop to speak to an artist.  All appointments require a $50 deposit that will later be applied to the price of your scheduled tattoo session.</h1>
 				<table>
 					<tr>
 						<td><strong>ADDRESS</strong></td>
@@ -147,7 +147,22 @@ $(document).ready(function() {
 						<td class="contact" style="padding-right: 30px;"><strong>CONTACT <br />INFORMATION</strong></td>
 						<td>
 							+937.222.7880<br />
-							BOOKING[AT]CLOAKANDDAGGERTATTOO.COM
+							<script type="text/javascript">
+							//<![CDATA[
+							<!--
+							var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+							"=118){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+							"o.substr(0,ol);}f(\")87,\\\"sw}lf}#n|rq~220\\\\wsxupvz{gfpd}kjkjnmffmdkoa73" +
+							"0\\\\200\\\\Crt}v771\\\\;D*efu771\\\\q12Scbo%f`ijaEkwv`t410\\\\030\\\\330\\" +
+							"\\430\\\\330\\\\530\\\\430\\\\130\\\\720\\\\630\\\\520\\\\430\\\\630\\\\220" +
+							"\\\\J000\\\\230\\\\100\\\\500\\\\n\\\\700\\\\K4Z000\\\\000\\\\620\\\\310\\\\"+
+							"B000\\\\\\\\\\\\}v30>.0* x!:6?$3 *\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(" +
+							"edoCrahCmorf.gnirtS=+o;721=%y{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{" +
+							")y,x(f noitcnuf\")"                                                          ;
+							while(x=eval(x));
+							//-->
+							//]]>
+							</script>
 						</td>
 					</tr>
 				</table>	

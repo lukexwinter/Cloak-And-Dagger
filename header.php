@@ -7,8 +7,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Cloak and Dagger Tattoo - Dayton Ohio | Custom Designed Carefully Crafted</title>
+        <meta name="description" content="Dayton Ohio Tattoo Shop, Tattoo, Dayton, Ohio, Custom Tattoo, Tattoo Flash, ink, custom design, full sleeve, half sleeve, back pieces, clean, linework, professional">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 		<meta name="format-detection" content="telephone=no">
 
