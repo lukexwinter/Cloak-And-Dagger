@@ -1,3 +1,4 @@
+//Site Frame Function
 function setFrameHeight() {
 	var frameSides = $('.gold-border.left, .gold-border.right');
 	var windowHeight = $(window).height();
@@ -21,7 +22,8 @@ $(window).resize(function(){
 	setFrameHeight();
 })
 
-$('#menu-button').click(function(){
+$('#menu-button').click(function(e){
+	e.preventDefault();
 	if ( $('.mobile-nav').hasClass('active') ) {
 		$('.mobile-nav').removeClass('active');
 	} else {
@@ -51,4 +53,14 @@ function passThrough(e) {
 }
 
 $("#frame").click(passThrough);
+
+//Elastic Header function
+var header = $('header');
+$(document).scroll(function(e) {
+    if($(this).scrollTop() > 75) {
+       header.addClass('small');
+    } else {
+        header.removeClass('small');
+    }
+});
 

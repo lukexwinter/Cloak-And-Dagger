@@ -104,10 +104,6 @@
 	
 		var mapHeight = (windowHeight - (infoHeight+infoOffset) - 85) ;
 		
-		console.log('infoOffset = '+infoOffset);
-		console.log('infoHeight = '+infoHeight);
-		console.log('windowHeight = '+windowHeight);
-		console.log('mapHeight = '+mapHeight);
 		cdMap.css('height', mapHeight);
 	}
 
@@ -118,6 +114,15 @@
 	$(window).resize(function(){
 		setMapHeight();
 	})
+</script>
+<script>
+$(document).ready(function() {
+     $(".booking article, #map_canvas").animate({
+	    opacity: 1
+	  }, 1000, function() {
+	    // Animation complete.
+	  });
+  });
 </script>
 
 

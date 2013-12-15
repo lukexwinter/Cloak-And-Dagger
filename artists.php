@@ -13,19 +13,19 @@
 				</a>
 			</article>
 			<article class="odd">
-				<a href="">
+				<a href="#">
 					<img src="img/adam.jpg" alt="Adam Brockman - Tattoo Artist Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Adam Brockman</h1>
 				</a>
 			</article>
 			<article class="even">
-				<a href="">
+				<a href="#">
 					<img src="img/jess.jpg" alt="Jess Oram - Tattoo Artist Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Jess Oram</h1>
 				</a>
 			</article>
 			<article class="odd">
-				<a href="">
+				<a href="#">
 					<img src="img/steve.jpg" alt="Steve Ratcliffe - Tattoo Artist Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Steve Ratcliffe</h1>
 				</a>
@@ -35,7 +35,7 @@
 		<script>
 		$(window).ready(function() {
 		     $(".artists article").each(function(i) {
-		           $(this).delay(150*i).fadeIn();
+		           $(this).delay(200*i).fadeIn();
 		      });
 		  });
 		</script>
