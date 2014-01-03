@@ -7,7 +7,6 @@ function setFrameHeight() {
 	
 	if (windowWidth > 767) {
 		frameHeight = windowHeight - 120;
-		console.log('im working');
 	} else if (navigator.userAgent.match(/(iPod|iPhone)/)) {
 		frameHeight = windowHeight;
 	} else {

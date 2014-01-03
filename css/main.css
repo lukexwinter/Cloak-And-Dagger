@@ -214,12 +214,13 @@ footer h6.address .phone { margin-left: 60px; }
 /*Home*/
 .home { text-align: center; }
 .home h1 { 
-	position: relative; font-family: "didot-bold", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color: #fff; font-weight: normal; font-size: 64px; line-height: 1.05; margin: 0 auto; padding: 0; text-align: left; display: inline-block;
-	-webkit-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	-o-transition: all .1s ease;
-	transition: all .1s ease;
+	position: relative; font-family: "didot-bold", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color: #fff; font-weight: normal; font-size: 64px; line-height: 1.05; margin: 0 auto; padding: 0; text-align: left; display: inline-block; opacity: 0;
+	-webkit-transition: opacity 1s ease;
+	-moz-transition: opacity 1s ease;
+	-o-transition: opacity 1s ease;
+	transition: opacity 1s ease;
 }
+.home h1.show { opacity: 1; }
 .home h1 .slash { 
 	border-right: 1px solid #c0b57c; height: 85px; display: block; position: absolute; top: -15px; right: 68px; width: 1px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7431448254773942, M12=-0.6691306063588581, M21=0.6691306063588581, M22=0.7431448254773942, SizingMethod='auto expand')";
@@ -233,6 +234,8 @@ footer h6.address .phone { margin-left: 60px; }
 
 /*Artists*/
 .artists {  margin: 180px auto 30px auto; width: 86.71875%; /*85/1280*/ font-family: "didot-bold", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
+.artists h1 { font-family: "didot-bold", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 60px; font-weight: normal; line-height: 1.2; color: #fff; font-size: 48px; margin-top: 0; display: none; }
+
 .artists article { width: 48.359375%; float: left; display: block; margin: 0 1.640625% 70px 0; /*21/1280*/ background: #000; -webkit-transform: translateZ(0); display: none; }
 .artists article h1 { font-size: 18px; margin-top: 22px; padding-top: 8px; display: inline-block; width: 100%; }
 .artists article a:hover h1 { font-size: 18px; border-top: 1px solid #c0b57c; padding-top: 7px; width: auto; }
@@ -252,6 +255,7 @@ footer h6.address .phone { margin-left: 60px; }
 }
 
 /*Booking*/
+.booking article h1.mobile-title { font-family: "didot-bold", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 60px; font-weight: normal; line-height: 1.2; color: #fff; font-size: 48px !important; margin-top: 0; display: none;  }
 .booking article { width: 78.90625%; /*1010/1280*/ margin: 180px auto 0 auto; color: #fff; opacity: 0; }
 .booking article h1 { font-family: "didot", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 24px; font-weight: normal; width: 50%; /*565/1010*/ float: left; margin: 0; /*70/1010*/ }
 .booking article table { font-family: "futura-medium", "Trebuchet MS", Arial, sans-serif; font-size: 12px; width: 37.128713%; /*375/1010*/ float: right; }
@@ -328,6 +332,7 @@ header.small .shade { top: 0; }
 	.gold-border.bottom-left { width: 100%; }
 	
 	/*Artists*/
+	.artists h1 { display: block; }
 	.artists article { width: 100%; float: none; margin: 0 0 70px 0; background: #000; }
 	.artists article.even { float: none; }
 	
@@ -349,6 +354,7 @@ header.small .shade { top: 0; }
 	header nav .shade { display: none; }
 	
 	/*Booking*/
+	.booking article h1.mobile-title { display: block; }
 	.booking article table td { display: block; }
 	.booking article table td.contact br { display: none; }
 	#map_canvas { display: none; }
@@ -371,16 +377,23 @@ header.small .shade { top: 0; }
 
 /*iPad*/
 @media only screen and (max-device-width: 1024px) {
-	section.about { background-attachment: scroll; }
+	section.about { background: none; }
 	
-	#logo { width: 51px; height: 48px; top: -50px; margin-left: -25.5px; }
- 	header nav ul { top: 15px; }
+	#logo { width: 51px !important; height: 48px !important; top: -50px !important; margin-left: -25.5px !important; }
+ 	header nav ul { top: 15px !important; }
 	header .shade { top: 0; }
 	
 	.diamond { display: none; }
 	.gold-border.bottom-right { display: none; } 
 	.gold-border.bottom-left { width: 100%; }
 }
+
+/*iPhone*/
+@media only screen and (max-device-width: 480px) {
+	#logo { width: 81px !important; height: 77px !important; top: -38.5px !important; margin-left: -40px !important; }
+
+}
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),

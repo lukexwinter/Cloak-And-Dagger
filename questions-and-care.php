@@ -2,7 +2,7 @@
 		<section class="care clearfix">
 			<article class="intro">
 				<h1>TATTOO AND PIERCING CARE</h1>
-				<p>Whether you’re setting up your first appointment, or have questions about taking care of your tattoo after your most recent visit...here are a few helpful answers to some commonly asked questions.</p>
+				<p>Whether you’re setting up your first appointment, or have questions about taking care of your tattoo after your most recent visit &mdash; here are a few helpful answers to some commonly asked questions.</p>
 			</article>
 			<article class="faq">
 				<h2>WHAT'S THE SHOP MINIMUM FOR A TATTOO <span>/</span></h2>
@@ -16,9 +16,9 @@
 				<h2>HOW DO I PAY FOR MY SESSION <span>/</span></h2>
 				<p>We accept cash or credit.</p>
 				<h2>HOW DO I CARE FOR MY TATTOO <span>/</span></h2>
-				<p>After your tattoo session, be sure to remove any bandages and wash it when you get home. Apply a small amount of Aquaphor ointment a couple of times a day for about a week, and then switch to a white water based lotion.  Something for sensitive skin with no fragrances and a low alcohol content.<br /><br />For more care instructions <a href="">download or tattoo aftercare brochure</a> or call the shop.</p>
+				<p>After your tattoo session, be sure to remove any bandages and wash it when you get home. Apply a small amount of Aquaphor ointment a couple of times a day for about a week, and then switch to a white water based lotion.  Something for sensitive skin with no fragrances and a low alcohol content.<!--<br /><br />For more care instructions <a href="">download or tattoo aftercare brochure</a> or call the shop.--></p>
 				<h2>HOW DO I CARE FOR MY PIERCING <span>/</span></h2>
-				<p>Wash your piercing once or twice daily. Use a saline solution to rinse after washing and a couple of times throughout the day.  There is no need to turn your jewelry. It's best to avoid touching the piercing unless you are cleaning it.<br /><br />For more care instructions <a href="">download or piercing aftercare brochure</a> or call the shop.</p>
+				<p>Wash your piercing once or twice daily. Use a saline solution to rinse after washing and a couple of times throughout the day.  There is no need to turn your jewelry. It's best to avoid touching the piercing unless you are cleaning it.<!--<br /><br />For more care instructions <a href="">download or piercing aftercare brochure</a> or call the shop.--></p>
 			</article>
 		</section>
 <script>

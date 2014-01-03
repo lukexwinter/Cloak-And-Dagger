@@ -128,6 +128,7 @@ $(document).ready(function() {
 
 		<section class="booking clearfix">
 			<article class="clearfix">
+				<h1 class="mobile-title">BOOKING</h1>
 				<h1>To book an appointment, call, or visit the shop to speak to an artist.  All appointments require a $50 deposit that will later be applied to the price of your scheduled tattoo session.</h1>
 				<table>
 					<tr>
@@ -167,7 +168,7 @@ $(document).ready(function() {
 					</tr>
 				</table>	
 				<br /><br />
-				<a href="#" class="button">GET DIRECTIONS</a>
+				<a href="https://maps.google.co.in/maps?q=Cloak+and+Dagger+Tattoo+Studio,+Brown+Street,+Dayton,+OH,+United+States&hl=en&sll=39.160547,-84.41637&sspn=0.086117,0.154324&oq=cloak+and+da&t=m&z=16&iwloc=A" target="_blank" class="button">GET DIRECTIONS</a>
 			</article>
 			
 			

@@ -3,11 +3,7 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 
-<script>
-	$(document).ready(function() {
-	    $('.home h1').flexVerticalCenter();
-	});
-</script>
+
 
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
