@@ -2,7 +2,7 @@
 		<section class="artists clearfix">
 			<h1>ARTISTS</h1>
 			<article class="odd">
-				<a href="http://instagram.com/britton_cloakanddagger" target="_blank">
+				<a href="http://instagram.com/brittonhatesyou" target="_blank">
 					<img src="img/britton.jpg" alt="Tattoo Artist Britton Asbury - Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Britton Asbury</h1>
 				</a>
