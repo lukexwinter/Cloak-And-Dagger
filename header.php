@@ -59,7 +59,7 @@
 			<div style="clear: both;"></div>
 			<footer class="clearfix">
 				<h6 class="fleft">Cloak And Dagger Tattoo Studio</h6>
-				<h6 class="address fright">1047 brown street dayton, oh 45121 <span class="phone">937.222.7880</span></h6>
+				<h6 class="address fright">1100 Wilmington Ave. Dayton, OH 45420 <span class="phone">937.222.7880</span></h6>
 			</footer>
 		</div>
 		<nav class="mobile-nav">

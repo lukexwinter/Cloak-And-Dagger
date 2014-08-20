@@ -75,13 +75,13 @@
 			mapTypeControlOptions: {
 				mapTypeIds: [ 'Styled']
 			},
-			center: new google.maps.LatLng(39.743973,-84.182857),
+			center: new google.maps.LatLng(39.7258319,-84.15327),
 			zoom: 16,
 			mapTypeId: 'Styled'
 		}
 		var map = new google.maps.Map(map_canvas, map_options);
 		var edokoImage = 'img/map-marker.png';
-		var edokoPos = new google.maps.LatLng(39.743973,-84.182857);
+		var edokoPos = new google.maps.LatLng(39.7258319,-84.15327);
 		var edokoMarker = new google.maps.Marker({position: edokoPos, map: map, icon: edokoImage, content: 'Edoko Sush & Robata' });
 		
 		var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
@@ -133,7 +133,7 @@ $(document).ready(function() {
 				<table>
 					<tr>
 						<td><strong>ADDRESS</strong></td>
-						<td>1047 BROWN STREET DAYTON, OH 45121</td>
+						<td>1100 WILMINGTON AVE. DAYTON, OH 45420</td>
 					</tr>
 					<tr class="spacer"><td></td></tr>
 					<tr>
