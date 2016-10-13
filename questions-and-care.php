@@ -6,7 +6,7 @@
 			</article>
 			<article class="faq">
 				<h2>WHAT'S THE SHOP MINIMUM FOR A TATTOO <span>/</span></h2>
-				<p>The shop minimum for a tattoo is $50.00.  This usually covers small script and tattoos no larger than 2 inches.</p>
+				<p>The shop minimum for a tattoo is $75.00.  This usually covers small script and tattoos no larger than 2 inches.</p>
 				<h2>HOW LONG OF A SESSION CAN I SCHEDULE <span>/</span></h2>
 				<p>For larger tattoos, we will schedule an 8-9 hour session with a lunch break.</p>
 				<h2>HOW DO YOU HANDLE STERILIZATION <span>/</span></h2>
