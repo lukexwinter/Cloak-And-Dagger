@@ -2,25 +2,19 @@
 		<section class="artists clearfix">
 			<h1>ARTISTS</h1>
 			<article class="odd">
-				<a href="http://instagram.com/brittonhatesyou" target="_blank">
+				<a href="https://instagram.com/brittonhatesyou" target="_blank">
 					<img src="img/britton.jpg" alt="Tattoo Artist Britton Asbury - Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Britton Asbury</h1>
 				</a>
 			</article>
 			<article class="even">
-				<a href="http://instagram.com/whiskeyadam" target="_blank">
-					<img src="img/adam.jpg" alt="Tattoo Artist Adam Brockman - Cloak and Dagger Tattoo, Dayton OH" />
-					<h1>Adam Brockman</h1>
+				<a href="https://www.instagram.com/tattoosbyatom/" target="_blank">
+					<img src="img/atom.jpg" alt="Tattoo Artist Atom Aker - Cloak and Dagger Tattoo, Dayton OH" />
+					<h1>Atom Aker</h1>
 				</a>
 			</article>
 			<article class="odd">
-				<a href="http://instagram.com/bangorangdayton" target="_blank">
-					<img src="img/jess.jpg" alt="Tattoo Artist Jess Oram - Cloak and Dagger Tattoo, Dayton OH" />
-					<h1>Jess Oram</h1>
-				</a>
-			</article>
-			<article class="even">
-				<a href="http://instagram.com/profes_plum" target="_blank">
+				<a href="https://instagram.com/profes_plum" target="_blank">
 					<img src="img/steve.jpg" alt="Tattoo Artist Steve Ratcliffe - Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Steve Ratcliffe</h1>
 				</a>
