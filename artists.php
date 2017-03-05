@@ -14,9 +14,21 @@
 				</a>
 			</article>
 			<article class="odd">
-				<a href="https://instagram.com/profes_plum" target="_blank">
-					<img src="img/steve.jpg" alt="Tattoo Artist Steve Ratcliffe - Cloak and Dagger Tattoo, Dayton OH" />
-					<h1>Steve Ratcliffe</h1>
+				<a href="https://instagram.com/chi_tattoos" target="_blank">
+					<img src="img/chi.jpg" alt="Tattoo Artist Chi - Cloak and Dagger Tattoo, Dayton OH" />
+					<h1>Chi</h1>
+				</a>
+			</article>
+			<article class="even">
+				<a href="https://instagram.com/branxtwo" target="_blank">
+					<img src="img/brandon.jpg" alt="Tattoo Artist Brandon Willhelm - Cloak and Dagger Tattoo, Dayton OH" />
+					<h1>Brandon Willhelm</h1>
+				</a>
+			</article>
+			<article class="odd">
+				<a href="https://instagram.com/hannanxcannon" target="_blank">
+					<img src="img/alex.jpg" alt="Tattoo Artist Alex Hannan - Cloak and Dagger Tattoo, Dayton OH" />
+					<h1>Alex Hannan</h1>
 				</a>
 			</article>
 		</section>
