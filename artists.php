@@ -20,12 +20,6 @@
 				</a>
 			</article>
 			<article class="even">
-				<a href="https://instagram.com/branxtwo" target="_blank">
-					<img src="img/brandon.jpg" alt="Tattoo Artist Brandon Willhelm - Cloak and Dagger Tattoo, Dayton OH" />
-					<h1>Brandon Willhelm</h1>
-				</a>
-			</article>
-			<article class="odd">
 				<a href="https://instagram.com/hannanxcannon" target="_blank">
 					<img src="img/alex.jpg" alt="Tattoo Artist Alex Hannan - Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Alex Hannan</h1>
