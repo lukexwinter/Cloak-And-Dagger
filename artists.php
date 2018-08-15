@@ -8,21 +8,15 @@
 				</a>
 			</article>
 			<article class="even">
-				<a href="https://www.instagram.com/tattoosbyatom/" target="_blank">
-					<img src="img/atom.jpg" alt="Tattoo Artist Atom Aker - Cloak and Dagger Tattoo, Dayton OH" />
-					<h1>Atom Aker</h1>
+				<a href="https://www.instagram.com/logan.ipt/" target="_blank">
+					<img src="img/logan.jpg" alt="Tattoo Artist Logan Delong - Cloak and Dagger Tattoo, Dayton OH" />
+					<h1>Logan Delong</h1>
 				</a>
 			</article>
 			<article class="odd">
 				<a href="https://instagram.com/chi_tattoos" target="_blank">
 					<img src="img/chi.jpg" alt="Tattoo Artist Chi - Cloak and Dagger Tattoo, Dayton OH" />
 					<h1>Chi</h1>
-				</a>
-			</article>
-			<article class="even">
-				<a href="https://instagram.com/hannanxcannon" target="_blank">
-					<img src="img/alex.jpg" alt="Tattoo Artist Alex Hannan - Cloak and Dagger Tattoo, Dayton OH" />
-					<h1>Alex Hannan</h1>
 				</a>
 			</article>
 		</section>
